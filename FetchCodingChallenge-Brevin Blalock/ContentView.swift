@@ -82,7 +82,6 @@ struct DessertDetailView: View {
             }
             .padding()
         }
-        .navigationTitle("Apple & Blackberry Crumble")
     }
 }
 
