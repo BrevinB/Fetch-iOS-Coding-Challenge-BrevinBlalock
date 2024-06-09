@@ -53,3 +53,6 @@ struct MealDetails: Codable, Hashable {
     var strMeasure20: String?
 }
 
+struct MealDetail: Hashable, Codable {
+    var meals: [MealDetails]
+}
