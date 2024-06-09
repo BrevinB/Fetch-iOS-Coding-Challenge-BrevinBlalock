@@ -11,6 +11,10 @@
 		235647842C1499F6003DCAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235647832C1499F6003DCAE1 /* ContentView.swift */; };
 		235647862C1499F8003DCAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235647852C1499F8003DCAE1 /* Assets.xcassets */; };
 		235647892C1499F8003DCAE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235647882C1499F8003DCAE1 /* Preview Assets.xcassets */; };
+		23D52F702C14E51A00A69DA6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F6F2C14E51A00A69DA6 /* Meal.swift */; };
+		23D52F722C14E56500A69DA6 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F712C14E56500A69DA6 /* MealDetails.swift */; };
+		23D52F742C16541700A69DA6 /* MealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F732C16541700A69DA6 /* MealViewModel.swift */; };
+		23D52F762C16555800A69DA6 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F752C16555800A69DA6 /* MealDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		235647832C1499F6003DCAE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		235647852C1499F8003DCAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235647882C1499F8003DCAE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23D52F6F2C14E51A00A69DA6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		23D52F712C14E56500A69DA6 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
+		23D52F732C16541700A69DA6 /* MealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewModel.swift; sourceTree = "<group>"; };
+		23D52F752C16555800A69DA6 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		235647802C1499F6003DCAE1 /* FetchCodingChallenge-Brevin Blalock */ = {
 			isa = PBXGroup;
 			children = (
+				23D52F792C166A5900A69DA6 /* Manager */,
+				23D52F772C166A2600A69DA6 /* Model */,
+				23D52F782C166A3400A69DA6 /* Screens */,
 				235647812C1499F6003DCAE1 /* FetchCodingChallenge_Brevin_BlalockApp.swift */,
-				235647832C1499F6003DCAE1 /* ContentView.swift */,
 				235647852C1499F8003DCAE1 /* Assets.xcassets */,
 				235647872C1499F8003DCAE1 /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				235647882C1499F8003DCAE1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23D52F772C166A2600A69DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23D52F6F2C14E51A00A69DA6 /* Meal.swift */,
+				23D52F712C14E56500A69DA6 /* MealDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23D52F782C166A3400A69DA6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				23D52F752C16555800A69DA6 /* MealDetailView.swift */,
+				235647832C1499F6003DCAE1 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		23D52F792C166A5900A69DA6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				23D52F732C16541700A69DA6 /* MealViewModel.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D52F762C16555800A69DA6 /* MealDetailView.swift in Sources */,
 				235647842C1499F6003DCAE1 /* ContentView.swift in Sources */,
+				23D52F742C16541700A69DA6 /* MealViewModel.swift in Sources */,
+				23D52F722C14E56500A69DA6 /* MealDetails.swift in Sources */,
+				23D52F702C14E51A00A69DA6 /* Meal.swift in Sources */,
 				235647822C1499F6003DCAE1 /* FetchCodingChallenge_Brevin_BlalockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
