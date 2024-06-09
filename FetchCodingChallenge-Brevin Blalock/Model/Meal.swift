@@ -16,7 +16,3 @@ struct Meal: Hashable, Codable {
 struct Meals: Hashable, Codable {
     var meals: [Meal]
 }
-
-struct MealDetail: Hashable, Codable {
-    var meals: [MealDetails]
-}
