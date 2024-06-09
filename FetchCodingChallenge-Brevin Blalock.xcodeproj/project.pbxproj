@@ -11,6 +11,8 @@
 		235647842C1499F6003DCAE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235647832C1499F6003DCAE1 /* ContentView.swift */; };
 		235647862C1499F8003DCAE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235647852C1499F8003DCAE1 /* Assets.xcassets */; };
 		235647892C1499F8003DCAE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235647882C1499F8003DCAE1 /* Preview Assets.xcassets */; };
+		23D52F702C14E51A00A69DA6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F6F2C14E51A00A69DA6 /* Meal.swift */; };
+		23D52F722C14E56500A69DA6 /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D52F712C14E56500A69DA6 /* MealDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		235647832C1499F6003DCAE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		235647852C1499F8003DCAE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235647882C1499F8003DCAE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23D52F6F2C14E51A00A69DA6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		23D52F712C14E56500A69DA6 /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				235647812C1499F6003DCAE1 /* FetchCodingChallenge_Brevin_BlalockApp.swift */,
 				235647832C1499F6003DCAE1 /* ContentView.swift */,
+				23D52F6F2C14E51A00A69DA6 /* Meal.swift */,
+				23D52F712C14E56500A69DA6 /* MealDetails.swift */,
 				235647852C1499F8003DCAE1 /* Assets.xcassets */,
 				235647872C1499F8003DCAE1 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				235647842C1499F6003DCAE1 /* ContentView.swift in Sources */,
+				23D52F722C14E56500A69DA6 /* MealDetails.swift in Sources */,
+				23D52F702C14E51A00A69DA6 /* Meal.swift in Sources */,
 				235647822C1499F6003DCAE1 /* FetchCodingChallenge_Brevin_BlalockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
